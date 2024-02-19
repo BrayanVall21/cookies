@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Nutriera</title>
+</head>
+<body>
+<div class="contenedor">
+    <div class="columna-izquierda">
+        <div class="registro activo" id="registro">
+            <div class="header">
+                <h1>Nutriera</h1>
+                <p><br></p>
+                <p>¡No es una revolución, sino una revelación nutricional!</p>
+                <p><br></p>
+                <p>¡Despierta tu poder, descubre el futuro ahora!</p>
+                <p><br></p>
+                <p>¿Listo para ser parte de la revolución?</p>
+                <p><br></p>
+                <button onclick="window.open('localStorage.html', '_blank');">
+                    Sí!!
+                </button>
+
+                <script>
+                    function redirectToLocalStorage() {
+                        window.location.href = 'localStorage.html';
+                        setTimeout(function() {
+                            location.reload();
+                        }, 100);
+                    }
+                </script>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="columna-derecha">
+
+    </div>
+</div>
+</body>
+</html>
